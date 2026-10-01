@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f7;
+    margin: 0;
+    padding: 40px 20px;
+    color: #222;
+}
+
+.calculator {
+    max-width: 620px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.intro {
+    text-align: center;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+h2 {
+    margin-top: 32px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+
+    background: #1565c0;
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d4f9c;
+}
+
+#result {
+    display: none;
+    margin-top: 30px;
+    padding: 25px;
+    background: #f5f8fc;
+    border-radius: 12px;
+}
+
+.big-result {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.secondary-result {
+    color: #555;
+    font-size: 18px;
+}
+
+.breakdown {
+    margin-top: 25px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}

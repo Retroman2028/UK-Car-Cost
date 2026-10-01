@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UK Car Running Cost Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <h1>🚗 UK Car Running Cost Calculator</h1>
+    <p class="intro">
+        Estimate how much your car costs to run in the UK.
+    </p>
+
+    <h2>Car & fuel</h2>
+
+    <label for="fuelType">Fuel type</label>
+    <select id="fuelType">
+        <option value="petrol">Petrol</option>
+        <option value="diesel">Diesel</option>
+        <option value="hybrid">Hybrid</option>
+    </select>
+
+    <label for="mileage">Annual mileage</label>
+    <input type="number" id="mileage" value="8000">
+
+    <label for="mpg">Fuel economy (MPG)</label>
+    <input type="number" id="mpg" value="45">
+
+    <label for="fuelPrice">Fuel price (£ per litre)</label>
+    <input type="number" id="fuelPrice" value="1.42" step="0.01">
+
+
+    <h2>Annual costs</h2>
+
+    <label for="insurance">Insurance (£)</label>
+    <input type="number" id="insurance" value="600">
+
+    <label for="tax">Road tax (£)</label>
+    <input type="number" id="tax" value="195">
+
+    <label for="mot">MOT (£)</label>
+    <input type="number" id="mot" value="55">
+
+    <label for="service">Servicing (£)</label>
+    <input type="number" id="service" value="300">
+
+    <label for="repairs">Repairs / maintenance budget (£)</label>
+    <input type="number" id="repairs" value="250">
+
+    <button onclick="calculateCost()">Calculate my cost</button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
